@@ -1,8 +1,10 @@
-import { Box } from '@chakra-ui/react';
+import { Box, Divider, Text } from '@chakra-ui/react';
 import Head from 'next/head';
 import { Banner } from '../components/Banner';
 
 import { Header } from '../components/Header';
+import { HomeDivider } from '../components/HomeDivider';
+import { TravelTypes } from '../components/TravelTypes';
 
 export default function Home() {
   return (
@@ -15,7 +17,19 @@ export default function Home() {
       </Head>
       <Box w='100vw' maxW={1480} mx='auto'>
         <Header />
+
         <Banner />
+
+        <TravelTypes />
+
+        <HomeDivider />
+
+        <Box display='flex' justifyContent='center' mb='3.25rem'>
+          <Text fontWeight='500' fontSize='2.25rem' textAlign='center'>
+            Vamos nessa? <br/>
+            Então escolha seu continente
+          </Text>
+        </Box>
       </Box>
     </>
   )
