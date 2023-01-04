@@ -1,12 +1,9 @@
-import { Box } from "@chakra-ui/react";
-import Image from "next/image";
-
-import logo from 'public/Logo.svg';
+import { Box, Image } from "@chakra-ui/react";
 
 export function Logo() {
   return (
     <Box>
-      <Image alt='plane logo world trip' src={logo} />
+      <Image alt='plane logo world trip' src='/Logo.svg' />
     </Box>
   )
 }
