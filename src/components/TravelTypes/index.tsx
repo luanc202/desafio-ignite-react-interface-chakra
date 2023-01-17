@@ -3,7 +3,7 @@ import { TravelType } from "./TravelType";
 
 export function TravelTypes() {
   return (
-    <Grid mt='7.125rem' templateColumns='repeat(5, 1fr)' >
+    <Grid mt='7.125rem' templateColumns='repeat(5, 1fr)' gap='36' >
 
         <TravelType icon='cocktail' text='vida nortuna' alt='cocktail  icon' />
         <TravelType icon='surf' text='praia' alt='surfboard icon' />
