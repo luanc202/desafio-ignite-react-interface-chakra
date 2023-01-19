@@ -1,11 +1,11 @@
-import { Box, Text, Flex } from '@chakra-ui/react';
-import Head from 'next/head';
+import { Box, Text, Flex } from "@chakra-ui/react";
+import Head from "next/head";
 
-import { Banner } from '../components/Banner';
-import { ContinentSlider } from '../components/ContinentSlider';
-import { Header } from '../components/Header';
-import { HomeDivider } from '../components/HomeDivider';
-import { TravelTypes } from '../components/TravelTypes';
+import { Banner } from "../components/Banner";
+import { ContinentSlider } from "../components/ContinentSlider";
+import { Header } from "../components/Header";
+import { HomeDivider } from "../components/HomeDivider";
+import { TravelTypes } from "../components/TravelTypes";
 
 export default function Home() {
   return (
@@ -16,7 +16,7 @@ export default function Home() {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <Flex w='100vw' maxW={1480} mx='auto' display='flex' flexDir='column' alignItems='center'>
+      <Flex w="100vw" maxW={1480} mx="auto" display="flex" flexDir="column" alignItems="center">
         <Header />
 
         <Banner />
@@ -25,8 +25,8 @@ export default function Home() {
 
         <HomeDivider />
 
-        <Box display='flex' justifyContent='center' mb='3.25rem'>
-          <Text fontWeight='500' fontSize='2.25rem' textAlign='center'>
+        <Box display="flex" justifyContent="center" mb="3.25rem">
+          <Text fontWeight="500" fontSize="2.25rem" textAlign="center">
             Vamos nessa? <br />
             Então escolha seu continente
           </Text>

@@ -1,0 +1,46 @@
+{
+  "continents": [
+    {
+      "id": 1,
+      "title": "Europa",
+      "description": "O continente mais antigo.",
+      "continentImage": "europe.jpg",
+      "slug": "europe"
+    },
+    {
+      "id": "2",
+      "title": "América do Norte",
+      "description": "A terra dos imigrantes.",
+      "continentImage": "northamerica.jpg",
+      "slug": "northamerica"
+    },
+    {
+      "id": "3",
+      "title": "América do Sul",
+      "description": "O continente tropical.",
+      "continentImage": "southamerica.jpg",
+      "slug": "southamerica"
+    },
+    {
+      "id": "4",
+      "title": "Ásia",
+      "description": "Uma experiência cultural exótica.",
+      "continentImage": "asia.jpg",
+      "slug": "asia"
+    },
+    {
+      "id": "5",
+      "title": "África",
+      "description": "Visite as belezas naturais.",
+      "continentImage": "africa.jpg",
+      "slug": "africa"
+    },
+    {
+      "id": "6",
+      "title": "Oceania",
+      "description": "Desbrave o continente além do mar.",
+      "continentImage": "oceania.jpg",
+      "slug": "oceania"
+    }
+  ]
+}
