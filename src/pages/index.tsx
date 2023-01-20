@@ -1,4 +1,5 @@
 import { Box, Text, Flex } from "@chakra-ui/react";
+import { GetStaticProps } from "next";
 import Head from "next/head";
 
 import { Banner } from "../components/Banner";
@@ -6,8 +7,21 @@ import { ContinentSlider } from "../components/ContinentSlider";
 import { Header } from "../components/Header";
 import { HomeDivider } from "../components/HomeDivider";
 import { TravelTypes } from "../components/TravelTypes";
+import { api } from "../services/api";
 
-export default function Home() {
+interface Continent {
+  id: number;
+  title: string;
+  description: string;
+  continentImage: string;
+  slug: string;
+}
+
+interface HomeProps {
+  continents: Continent[];
+}
+
+export default function Home({ continents }: HomeProps) {
   return (
     <>
       <Head>
@@ -32,8 +46,20 @@ export default function Home() {
           </Text>
         </Box>
 
-        <ContinentSlider />
+        <ContinentSlider continents={continents} />
       </Flex>
     </>
   )
 }
+
+export const getStaticProps: GetStaticProps = async () => {
+  const response = await api.get('/continents');
+  const continents = response.data;  
+
+  return {
+    props: {
+      continents,
+    },
+    revalidate: 60 * 60 * 48, //48horas
+  };
+};
