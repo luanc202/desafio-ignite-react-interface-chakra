@@ -1,4 +1,5 @@
 import { Box, Flex, Text } from "@chakra-ui/react";
+import { ContinentData } from "../../components/ContinentData";
 import { Header } from "../../components/Header";
 import { api } from "../../services/api";
 
@@ -24,7 +25,7 @@ interface ContinentInfo {
   }
 }
 
-export default function Continent({continent}: ContinentInfo) {
+export default function Continent({ continent }: ContinentInfo) {
   return (
     <>
       <Header />
@@ -45,6 +46,28 @@ export default function Continent({continent}: ContinentInfo) {
             mb='3.688rem'
           >{continent.title}</Text>
         </Flex>
+        <Box mt='20' maxW='72.5rem'>
+          <Flex
+            flexDir='row'
+            gap='4.375rem'
+            alignItems='center'
+          >
+            <Text
+              maxW='37.5rem'
+              fontWeight='400'
+              fontSize='2xl'
+              textAlign='justify'
+              lineHeight='9'
+            >
+              {continent.longDescription}
+            </Text>
+            <Flex flexDir='row' gap='2.625rem'>
+              <ContinentData num={continent.citiesNum} text={"países"} />
+              <ContinentData num={continent.languagesNum} text={"línguas"} />
+              <ContinentData num={continent.citiesNum} text={"cidades +100"} tooltip='Cidades além das programadas para turismo'/>
+            </Flex>
+          </Flex>
+        </Box>
       </Flex>
     </>
   )
