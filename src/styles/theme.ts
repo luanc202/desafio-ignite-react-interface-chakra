@@ -13,5 +13,11 @@ export const theme = extendTheme({
         border: '0px',
       }
     }
+  },
+  colors: {
+    text: {
+      heading: '#47585B',
+      info: '#999999',
+    }
   }
 });

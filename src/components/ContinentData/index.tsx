@@ -12,22 +12,15 @@ export function ContinentData({ num, text, tooltip }: ContinentDataProps) {
       flexDir='column'
       alignItems='center'
     >
-      <Text
-        textAlign='center'
-        as='p'
-        fontWeight='600'
-        fontSize='2xl'
-      >
-        <Text as='span' color='#FFBA08' fontWeight='600' fontSize='5xl'>{num}<br /></Text>
+        <Text as='span' color='#FFBA08' fontWeight='600' fontSize='5xl' lineHeight='2.25rem'>{num}<br /></Text>
         <Flex gap='0.3rem'>
-          {text}
+          <Text fontWeight='600' fontSize='1.5rem' lineHeight='4.5rem'>{text}</Text>
           {tooltip && (
             <Tooltip hasArrow label={tooltip}>
               <Image src="/info.svg" alt="info icon" />
             </Tooltip>
           )}
         </Flex>
-      </Text>
     </Flex>
   )
 }

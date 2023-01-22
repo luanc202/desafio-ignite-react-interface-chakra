@@ -1,4 +1,5 @@
-import { Box, Flex, Text } from "@chakra-ui/react";
+import { Box, Flex, Grid, GridItem, Text } from "@chakra-ui/react";
+import { CityCard } from "../../components/CityCard";
 import { ContinentData } from "../../components/ContinentData";
 import { Header } from "../../components/Header";
 import { api } from "../../services/api";
@@ -20,6 +21,8 @@ interface ContinentInfo {
       {
         city: string;
         country: string;
+        cityImagePath: string;
+        countryCode: string;
       }
     ];
   }
@@ -62,11 +65,24 @@ export default function Continent({ continent }: ContinentInfo) {
               {continent.longDescription}
             </Text>
             <Flex flexDir='row' gap='2.625rem'>
-              <ContinentData num={continent.citiesNum} text={"países"} />
+              <ContinentData num={continent.countriesNum} text={"países"} />
               <ContinentData num={continent.languagesNum} text={"línguas"} />
-              <ContinentData num={continent.citiesNum} text={"cidades +100"} tooltip='Cidades além das programadas para turismo'/>
+              <ContinentData num={continent.citiesNum} text={"cidades+100"} tooltip='Cidades além das programadas para turismo' />
             </Flex>
           </Flex>
+        </Box>
+
+        <Box mt={20} maxW='72.5rem' w={['auto','72.5rem']}>
+          <Text mb={10} fontWeight='500' fontSize='4xl'>Cidades +100</Text>
+          <Grid templateColumns='repeat(4, 1fr)' gap='2.813rem'>
+            {continent.cities.map((city) => {
+              return (
+                <GridItem key={city.city}>
+                  <CityCard city={city.city} country={city.country} cityImagePath={city.cityImagePath} countryCode={city.countryCode}/>
+                </GridItem>
+              )
+            })}
+          </Grid>
         </Box>
       </Flex>
     </>
@@ -102,9 +118,6 @@ export async function getStaticProps(context: { params: { continent: ContinentId
     citiesNum: response.data.citiesNum,
     cities: response.data.cities,
   };
-
-  console.log(continent);
-
 
   return {
     props: {
