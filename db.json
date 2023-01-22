@@ -13,23 +13,33 @@
       "cities": [
         {
           "city": "Londres",
-          "country": "Reino Unido"
+          "country": "Reino Unido",
+          "countryCode": "GB",
+          "cityImagePath": "/Continents/europe/london.jpg"
         },
         {
           "city": "Paris",
-          "country": "França"
+          "country": "França",
+          "countryCode": "FR",
+          "cityImagePath": "/Continents/europe/paris.jpg"
         },
         {
           "city": "Roma",
-          "country": "Itália"
+          "country": "Itália",
+          "countryCode": "IT",
+          "cityImagePath": "/Continents/europe/rome.jpg"
         },
         {
           "city": "Praga",
-          "country": "República Tcheca"
+          "country": "República Tcheca",
+          "countryCode": "cz",
+          "cityImagePath": "/Continents/europe/prague.jpg"
         },
         {
           "city": "Amsterdã",
-          "country": "Holanda"
+          "country": "Holanda",
+          "countryCode": "NL",
+          "cityImagePath": "/Continents/europe/amsterdam.jpg"
         }
       ]
     },
@@ -40,29 +50,39 @@
       "continentImage": "northamerica.jpg",
       "slug": "northamerica",
       "longDescription": "A Europa é, por convenção, um dos seis continentes do mundo. Compreendendo a península ocidental da Eurásia, a Europa geralmente divide-se da Ásia a leste pela divisória de águas dos montes Urais, o rio Ural, o mar Cáspio, o Cáucaso, e o mar Negro a sudeste",
-      "countriesNum": 50,
-      "languagesNum": 27,
-      "citiesNum": 27,
+      "countriesNum": 29,
+      "languagesNum": 8,
+      "citiesNum": 34,
       "cities": [
         {
           "city": "Londres",
-          "country": "Reino Unido"
+          "country": "Reino Unido",
+          "countryCode": "GB",
+          "cityImagePath": "/Continents/europe/london.jpg"
         },
         {
           "city": "Paris",
-          "country": "França"
+          "country": "França",
+          "countryCode": "FR",
+          "cityImagePath": "/Continents/europe/paris.jpg"
         },
         {
           "city": "Roma",
-          "country": "Itália"
+          "country": "Itália",
+          "countryCode": "IT",
+          "cityImagePath": "/Continents/europe/rome.jpg"
         },
         {
           "city": "Praga",
-          "country": "República Tcheca"
+          "country": "República Tcheca",
+          "countryCode": "cz",
+          "cityImagePath": "/Continents/europe/prague.jpg"
         },
         {
           "city": "Amsterdã",
-          "country": "Holanda"
+          "country": "Holanda",
+          "countryCode": "NL",
+          "cityImagePath": "/Continents/europe/amsterdam.jpg"
         }
       ]
     },
@@ -79,23 +99,33 @@
       "cities": [
         {
           "city": "Londres",
-          "country": "Reino Unido"
+          "country": "Reino Unido",
+          "countryCode": "GB",
+          "cityImagePath": "/Continents/europe/london.jpg"
         },
         {
           "city": "Paris",
-          "country": "França"
+          "country": "França",
+          "countryCode": "FR",
+          "cityImagePath": "/Continents/europe/paris.jpg"
         },
         {
           "city": "Roma",
-          "country": "Itália"
+          "country": "Itália",
+          "countryCode": "IT",
+          "cityImagePath": "/Continents/europe/rome.jpg"
         },
         {
           "city": "Praga",
-          "country": "República Tcheca"
+          "country": "República Tcheca",
+          "countryCode": "cz",
+          "cityImagePath": "/Continents/europe/prague.jpg"
         },
         {
           "city": "Amsterdã",
-          "country": "Holanda"
+          "country": "Holanda",
+          "countryCode": "NL",
+          "cityImagePath": "/Continents/europe/amsterdam.jpg"
         }
       ]
     },
@@ -112,23 +142,33 @@
       "cities": [
         {
           "city": "Londres",
-          "country": "Reino Unido"
+          "country": "Reino Unido",
+          "countryCode": "GB",
+          "cityImagePath": "/Continents/europe/london.jpg"
         },
         {
           "city": "Paris",
-          "country": "França"
+          "country": "França",
+          "countryCode": "FR",
+          "cityImagePath": "/Continents/europe/paris.jpg"
         },
         {
           "city": "Roma",
-          "country": "Itália"
+          "country": "Itália",
+          "countryCode": "IT",
+          "cityImagePath": "/Continents/europe/rome.jpg"
         },
         {
           "city": "Praga",
-          "country": "República Tcheca"
+          "country": "República Tcheca",
+          "countryCode": "cz",
+          "cityImagePath": "/Continents/europe/prague.jpg"
         },
         {
           "city": "Amsterdã",
-          "country": "Holanda"
+          "country": "Holanda",
+          "countryCode": "NL",
+          "cityImagePath": "/Continents/europe/amsterdam.jpg"
         }
       ]
     },
@@ -145,23 +185,33 @@
       "cities": [
         {
           "city": "Londres",
-          "country": "Reino Unido"
+          "country": "Reino Unido",
+          "countryCode": "GB",
+          "cityImagePath": "/Continents/europe/london.jpg"
         },
         {
           "city": "Paris",
-          "country": "França"
+          "country": "França",
+          "countryCode": "FR",
+          "cityImagePath": "/Continents/europe/paris.jpg"
         },
         {
           "city": "Roma",
-          "country": "Itália"
+          "country": "Itália",
+          "countryCode": "IT",
+          "cityImagePath": "/Continents/europe/rome.jpg"
         },
         {
           "city": "Praga",
-          "country": "República Tcheca"
+          "country": "República Tcheca",
+          "countryCode": "cz",
+          "cityImagePath": "/Continents/europe/prague.jpg"
         },
         {
           "city": "Amsterdã",
-          "country": "Holanda"
+          "country": "Holanda",
+          "countryCode": "NL",
+          "cityImagePath": "/Continents/europe/amsterdam.jpg"
         }
       ]
     },
@@ -178,23 +228,33 @@
       "cities": [
         {
           "city": "Londres",
-          "country": "Reino Unido"
+          "country": "Reino Unido",
+          "countryCode": "GB",
+          "cityImagePath": "/Continents/europe/london.jpg"
         },
         {
           "city": "Paris",
-          "country": "França"
+          "country": "França",
+          "countryCode": "FR",
+          "cityImagePath": "/Continents/europe/paris.jpg"
         },
         {
           "city": "Roma",
-          "country": "Itália"
+          "country": "Itália",
+          "countryCode": "IT",
+          "cityImagePath": "/Continents/europe/rome.jpg"
         },
         {
           "city": "Praga",
-          "country": "República Tcheca"
+          "country": "República Tcheca",
+          "countryCode": "cz",
+          "cityImagePath": "/Continents/europe/prague.jpg"
         },
         {
           "city": "Amsterdã",
-          "country": "Holanda"
+          "country": "Holanda",
+          "countryCode": "NL",
+          "cityImagePath": "/Continents/europe/amsterdam.jpg"
         }
       ]
     }
