@@ -9,7 +9,7 @@ interface CityCardProps {
 
 export function CityCard({ city, country, cityImagePath, countryCode }: CityCardProps) {
   return (
-    <Flex w={['auto', '16rem']} h={['auto', '17.438rem']} flexDir='column'>
+    <Flex w={['16rem', 'auto']} h={['17.438rem', 'auto']} flexDir='column'>
       <Image borderTopRadius='0.25rem' maxW='100%' src={cityImagePath} alt={city} />
       <Flex borderBottomRadius='4px' borderColor='rgba(255, 186, 8, 0.5)' borderWidth='0px 1px 1px 1px' pt='1.125rem' pb='1.563rem' flexDir='row' justifyContent='space-between' alignItems='center' px='6'>
         <Box>

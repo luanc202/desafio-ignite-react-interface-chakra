@@ -20,17 +20,18 @@ export function Slide({
       justifyContent='center'
       alignItems='center'
       flexDir='column'
-      w='77.5rem'
-      h='28.125rem'
+      w='100%'
+      h={['15.625rem','28.125rem']}
       textAlign='center'
       bgRepeat='no-repeat'
       bgPosition='center'
+      bgSize='cover'
       bgGradient={`linear(0deg, rgba(28, 20, 1, 0.35), rgba(28, 20, 1, 0.35)), url(Continents/${continentBgImg});`}
     >
         <Link href={`/continent/${continentSlug}`}>
           <Text
             fontWeight='700'
-            fontSize='5xl'
+            fontSize={['1.5rem','5xl']}
             color='#F5F8FA'
           >
             {continentTitle}
@@ -38,7 +39,7 @@ export function Slide({
         </Link>
         <Text
           fontWeight='700'
-          fontSize='2xl'
+          fontSize={['0.875rem','2xl']}
           color='#F5F8FA'
         >
           {continentDescription}

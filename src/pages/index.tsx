@@ -40,7 +40,7 @@ export default function Home({ continents }: HomeProps) {
         <HomeDivider />
 
         <Box display="flex" justifyContent="center" mb="3.25rem">
-          <Text fontWeight="500" fontSize="2.25rem" textAlign="center">
+          <Text fontWeight="500" fontSize={['1.25rem',"2.25rem"]} textAlign="center">
             Vamos nessa? <br />
             Então escolha seu continente
           </Text>

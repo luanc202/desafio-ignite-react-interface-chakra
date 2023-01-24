@@ -22,7 +22,7 @@ interface ContinentSliderProps {
 export function ContinentSlider({ continents }: ContinentSliderProps) {
   
   return (
-    <Flex w="100%" maxW="1240px" mb='2.5rem'>
+    <Flex w="100%" maxW="1240px" mb={['1.5rem','2.5rem']} >
       <Swiper
         navigation
         pagination={{ clickable: true }}
